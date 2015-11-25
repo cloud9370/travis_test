@@ -10,4 +10,5 @@ before_install:
   - sudo apt-get install -qq python2.7 nodejs
 
 install:
+  - sh ./travis_install_cmake.sh
   - sh ./travis_install_emsdk.sh
