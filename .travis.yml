@@ -6,3 +6,7 @@ sudo:
 
 before_install:
   - sudo apt-get update -qq
+  - sudo apt-get install -qq python2.7 nodejs
+
+install:
+  - sh ./travis_install_emsdk.sh
