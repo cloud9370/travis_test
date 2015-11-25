@@ -11,5 +11,5 @@ before_install:
   - sudo apt-get autoremove -qq
 
 install:
-  - sh ./travis_install_cmake.sh
+  #- sh ./travis_install_cmake.sh
   - sh ./travis_install_emsdk.sh
