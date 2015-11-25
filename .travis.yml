@@ -1,6 +1,10 @@
 language:
-  - clang
   - cpp
+
+compiler:
+  - clang
+  - gcc
+  - g++
 
 sudo:
   - required
